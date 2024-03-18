@@ -8,6 +8,7 @@ const url = slug && slug.length > 0 ? slug.join('/') : 'home';
 console.log(useRuntimeConfig().public.NODE_ENV);
 console.log(useRuntimeConfig().public.STORYBLOK_ACCESS_TOKEN);
 console.log(useRuntimeConfig().public.YARN_VERSION);
+console.log('dev');
 const isPreview = useRuntimeConfig().public.NODE_ENV !== 'production';
 const {locale} = useI18n();
 const resolveRelations = ['popular-articles.articles'];
