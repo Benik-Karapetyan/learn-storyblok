@@ -15,6 +15,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       NODE_ENV: process.env.NODE_ENV,
+      NUXT_PUBLIC_NODE_ENV: process.env.NUXT_PUBLIC_NODE_ENV,
+      YARN_VERSION: process.env.YARN_VERSION,
     },
   },
 });
